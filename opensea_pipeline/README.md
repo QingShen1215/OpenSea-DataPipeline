@@ -4,28 +4,7 @@ An extensible ETL pipeline for processing OpenSea NFT transaction data, transfor
 
 ## Project Structure
 
-opensea_pipeline/
-├── raw_data                       source/date
-├── clean/                        # Versioned output directories
-│   └── 2025-10-31_HH-MM-SS/
-│       ├── minimal_events.parquet
-│       ├── daily_collection_stats.parquet
-│       ├── token_stats.parquet
-│       ├── collection_dimension.parquet
-│       ├── collection_summary.parquet
-│       ├── wallet_dimension.parquet (optional)
-│       ├── metrics.json
-│       └── _run.log
-├── pipeline/
-│   └── src/
-│       ├── schemas.py            # Data schema definitions
-│       ├── io_utils.py           # I/O abstractions (Polars/DuckDB)
-│       ├── validate.py           # Data quality validation
-│       ├── clean_events.py       # Event cleaning & transformation
-│       └── aggregate.py          # Analytics aggregation
-├── run.py                        # Main orchestration script
-├── requirements.txt
-├── DESIGN.md                     # Design decisions & roadmap
-└── README.md
+<img width="604" height="550" alt="image" src="https://github.com/user-attachments/assets/1fb99260-dd1c-4ca6-a66e-8903e1c68b73" />
+
 
 
