@@ -1,0 +1,98 @@
+Run timestamp: 2025-10-31 02:04:55.656671
+==================================================
+[2025-10-31 02:04:48] ============================================================
+[2025-10-31 02:04:48] OpenSea NFT Transaction Data Pipeline
+[2025-10-31 02:04:48] ============================================================
+[2025-10-31 02:04:48] 
+[1/6] Loading raw data...
+[2025-10-31 02:04:51] Loaded 1,563,309 raw events from 8 collections
+[2025-10-31 02:04:51] 
+[2/6] Validating raw data...
+[2025-10-31 02:04:51] Validation complete
+[2025-10-31 02:04:51] 
+[3/6] Cleaning and transforming events...
+[2025-10-31 02:04:52] Cleaned dataset: 1,557,807 events
+[2025-10-31 02:04:52] 
+[4/6] Creating analytical aggregations...
+[2025-10-31 02:04:53]   Skipping wallet dimension (set create_wallet_dim=True to enable)
+[2025-10-31 02:04:53] 
+[5/6] Writing outputs...
+[2025-10-31 02:04:55] 
+[6/6] Generating data quality metrics...
+[2025-10-31 02:04:55] Wrote metrics to /Users/qingshen/Desktop/opensea/opensea_pipeline/clean/2025-10-31_02-04-53/metrics.json
+
+============================================================
+VALIDATION REPORT
+============================================================
+============================================================
+DATA VALIDATION REPORT
+============================================================
+Total rows: 1,563,309
+Total columns: 18
+
+Duplicate events: 11,086
+
+============================================================
+
+============================================================
+DATA QUALITY METRICS
+============================================================
+{
+  "total_rows": 1557807,
+  "total_collections": 8,
+  "total_tokens": 19765,
+  "date_range": {
+    "min": "2021-04-22",
+    "max": "2025-10-16"
+  },
+  "event_types": [
+    {
+      "event_type": "transfer",
+      "count": 1039536
+    },
+    {
+      "event_type": "sale",
+      "count": 450948
+    },
+    {
+      "event_type": "mint",
+      "count": 67323
+    }
+  ],
+  "collections": [
+    {
+      "collection": "azuki",
+      "count": 335771
+    },
+    {
+      "collection": "clonex",
+      "count": 304360
+    },
+    {
+      "collection": "pudgypenguins",
+      "count": 274997
+    },
+    {
+      "collection": "boredapeyachtclub",
+      "count": 230535
+    },
+    {
+      "collection": "milady",
+      "count": 228134
+    },
+    {
+      "collection": "cool-cats-nft",
+      "count": 176409
+    },
+    {
+      "collection": "bored-ape-yacht-club-shadow",
+      "count": 5769
+    },
+    {
+      "collection": "bored-ape-yacht-club-shadow-1",
+      "count": 1832
+    }
+  ],
+  "null_prices": 1060831,
+  "transactions_with_price": 496976
+}

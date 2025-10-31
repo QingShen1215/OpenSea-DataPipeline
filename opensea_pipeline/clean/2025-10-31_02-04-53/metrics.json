@@ -1,0 +1,59 @@
+{
+  "total_rows": 1557807,
+  "total_collections": 8,
+  "total_tokens": 19765,
+  "date_range": {
+    "min": "2021-04-22",
+    "max": "2025-10-16"
+  },
+  "event_types": [
+    {
+      "event_type": "transfer",
+      "count": 1039536
+    },
+    {
+      "event_type": "sale",
+      "count": 450948
+    },
+    {
+      "event_type": "mint",
+      "count": 67323
+    }
+  ],
+  "collections": [
+    {
+      "collection": "azuki",
+      "count": 335771
+    },
+    {
+      "collection": "clonex",
+      "count": 304360
+    },
+    {
+      "collection": "pudgypenguins",
+      "count": 274997
+    },
+    {
+      "collection": "boredapeyachtclub",
+      "count": 230535
+    },
+    {
+      "collection": "milady",
+      "count": 228134
+    },
+    {
+      "collection": "cool-cats-nft",
+      "count": 176409
+    },
+    {
+      "collection": "bored-ape-yacht-club-shadow",
+      "count": 5769
+    },
+    {
+      "collection": "bored-ape-yacht-club-shadow-1",
+      "count": 1832
+    }
+  ],
+  "null_prices": 1060831,
+  "transactions_with_price": 496976
+}

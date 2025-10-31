@@ -1,0 +1,20 @@
+# OpenSea NFT Transaction Data Pipeline - Requirements
+
+# Core data processing libraries
+polars>=0.20.0       
+duckdb>=0.10.0        
+
+# Data validation
+pydantic>=2.0.0         
+
+# Development and testing 
+pytest>=7.4.0
+pytest-cov>=4.1.0
+black>=23.0.0          
+ruff>=0.1.0            
+
+# Jupyter notebooks 
+jupyter>=1.0.0
+ipykernel>=6.25.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
